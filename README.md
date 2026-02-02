@@ -16,6 +16,14 @@ within seconds of completion. Each finished match is saved as a standalone JSON 
 - Python 3.11+
 - Playwright (Chromium)
 
+## ▶️ How it works
+
+1. Launches a Playwright Chromium browser
+2. Establishes a valid SofaScore session
+3. Polls football event APIs periodically
+4. Filters finished matches
+5. Writes new matches to JSON
+
 ## Setup
 ```bash
 python -m venv venv
